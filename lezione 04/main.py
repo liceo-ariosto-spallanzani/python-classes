@@ -46,8 +46,9 @@ class Level:
 
 
 level = Level(5, 5)
+
 m1 = Monster(3, 3)
-level.monsters.append(m1)
+level.monsters.append(m1, Monster(4, 4))
 
 command = ""
 while command != "q":
