@@ -95,4 +95,3 @@ while command != "q":
         p.move("right")
     
     m1.move(choice(["up", "down", "left", "right"]))
-        
